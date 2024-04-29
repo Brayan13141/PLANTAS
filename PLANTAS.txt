@@ -1,0 +1,119 @@
+aspirina(sauce).
+morfina(amapola).
+plantas(medicina_natural).
+diente_de_leon(alcaloides, taraxacina, inulina).
+ 
+digital(digitalina, tonico, cardiaco).
+opio(morfina, codeina).
+ipeca(emetina).
+vomica(estrienina).
+eleboro(veratina).
+colchico(colquicina). 
+quina(quinina).
+cacao(tedromina).
+retama(esparteina).
+coca(cocaina).
+peyote(mescalina).
+efedra(cedrina).
+barasco(hormonas).
+nenufar(luterunina).
+ñame(diosponina).
+artemisa(tauremisina).
+semilla_de_yute(olitorisida).
+toloache(acidoLisergico).
+eucalipto(eucaliptol).
+rosal(vitaminaC).
+
+
+apetito_sexual(afrodisiaca).
+quita_o_modera_el_dolor(analgesica).
+insebiliza_el_dolor(anestesica).
+controla_diarreas(antidiarreica).
+controla_espasmos_nerviosos(antiespasmodica).
+contra_inflamaciones(antiflogistica).
+mata_tejidos(antiseptica).
+produce_apetito(aperitiva).
+contrae_tejidos(astringente).
+expulsion_de_gases(carminativa).
+expulsa_bilis(colagoga).
+purifica_la_sangre(depurativa).
+provoca_sudar(diaforetica).
+favorece_la_digestion(digestiva).
+provoca_la_orina(diuretica).
+provoca_nauseas_y_vomito(emetica).
+activa_la_mestruacion(emenagoga).
+aquieta(estupefaciente).
+expulsa_flemas(expectorante).
+detiene_hemorrageas(hemostatica).
+ayuda_al_higado(hepatica).
+purga(laxante).
+ayuda_al_pecho(pectoral).
+calma_dolores(sedante).
+fuerza_al_organismo(tonica).
+venenosa(toxica).
+expulsa_gusanos_intestinales(vermifuga).
+cura_heridas(vulneraria).
+
+cura_affeciones_del_pecho(abrojo).
+evita_ampollas(acacia).
+antivenenoso(acanto).
+tonico_nervioso(aceitilla).
+
+%REGLAS Y CONSTRUCCIÓN DE CONSULTAS
+
+% planta(Planta, Activo).
+planta(digital,digitalina).
+planta(opio, morfina).
+planta(opio, codeina).
+planta(ipeca, emetina).
+planta(vomica, estrienina).
+planta(eleboro, veratina).
+planta(colchico, colquicina).
+planta(belladoma, atropina).
+planta(quina, quinina).
+planta(cacao, tedromina).
+planta(retama, esparteina).
+planta(coca, cocaina).
+planta(peyote, mescalina).
+planta(efedra, cedrina).
+planta(barasco, hormonas).
+planta(nenufar, luterunina).
+planta(ñame, diosponina).
+planta(artemisa, tauremisina).
+planta(semilla_de_yute, olitorisida).
+planta(toloache, acidoLisergico).
+planta(eucalipto, eucaliptol).
+planta(rosal, vitaminaC).
+
+%PLANTAS ASIGNADAS(nombre,ayuda).
+planta(tabachin,abortivo).
+planta(taray,calculos_renalres).
+planta(tila,alivia_nervios).
+planta(te_de_milpa,calma_las_hemorroides).
+
+% propiedad_medicinal(Activo, Alivio).
+propiedad(digitalina, tonica).
+propiedad(digitalina, cardiaca).
+propiedad(morfina, analgesica).
+propiedad(codeina, analgesica).
+propiedad(emetina, emetica).
+propiedad(estrienina, toxica).
+propiedad(veratina, toxica).
+propiedad(colquicina, toxica).
+propiedad(atropina, antiespasmodica).
+propiedad(quinina, antimalarica).
+propiedad(tedromina, estimulante).
+propiedad(esparteina, tonica).
+propiedad(cocaina, estimulante).
+propiedad(mescalina, alucinogena).
+propiedad(cedrina, estimulante).
+propiedad(hormonas, reguladora).
+propiedad(luterunina, hormonal).
+propiedad(diosponina, hormonal).
+propiedad(tauremisina, desconocida).
+propiedad(olitorisida, desconocida).
+propiedad(acidoLisergico, alucinogena).
+propiedad(eucaliptol, expectorante).
+propiedad(vitaminaC, antiescorbutica).
+ 
+ 
